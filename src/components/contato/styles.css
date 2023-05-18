@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.content-container {
+    height: 100vh;
+    background-color: #333;
+}
+
+.form-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../midia/background_2.jfif');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f9f9f9;
+    width: 500px;
+    height: 600px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#form h3 {
+    display: block;
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 7%;
+    margin-left: 22%;
+    font-family: 'Oswald', sans-serif;
+}
+
+label {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+}
+
+fieldset {
+    border: medium none;
+    min-width: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 15px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    font-family: 'Oswald', sans-serif;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 300px;
+    max-height: 300px;
+    min-height: 300px;
+    border-radius: 8px;
+    font-family: 'Oswald', sans-serif;
+}
+
+button {
+    width: 101%;
+    border: none;
+    background: rgb(5, 176, 255);
+    color: black;
+    border-radius: 15px;
+    padding: 8px 12px;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    transition: .5s;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: inset .5px .5px 6px 3px #292828;
+}
