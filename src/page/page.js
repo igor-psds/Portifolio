@@ -4,6 +4,7 @@ import Home from "../components/home/home";
 import Sobre from "../components/sobre/sobre";
 import Projetos from "../components/projetos/projetos";
 import Contato from "../components/contato/contato";
+import ArrowDown from "../midia/down-arrow.png";
 
 function Page() {
 
@@ -21,18 +22,22 @@ function Page() {
 
     return(
         <>
-            <div id="div-header" className="handler-pull">
-                <header>
-                        <nav>
-                            <ul>
-                                <li onClick={() => scrollDown(homeSection)}>Home</li>
-                                <li onClick={() => scrollDown(sobreSection)}>Sobre</li>
-                                <li onClick={() => scrollDown(projetosSection)}>Projetos</li>
-                                <li onClick={() => scrollDown(contatoSection)}>Contato</li>
-                            </ul>
-                        </nav>
-                </header>
+            <div className="pull-header">
+                <div id="div-header">
+                    <header>
+                            <nav>
+                                <ul>
+                                    <li onClick={() => scrollDown(homeSection)}>Home</li>
+                                    <li onClick={() => scrollDown(sobreSection)}>Sobre</li>
+                                    <li onClick={() => scrollDown(projetosSection)}>Projetos</li>
+                                    <li onClick={() => scrollDown(contatoSection)}>Contato</li>
+                                </ul>
+                            </nav>
+                    </header>
+                </div>
+                <img className="arrow-header" alt="" src={ArrowDown} />
             </div>
+
             <div ref={homeSection}>
                 <Home />
             </div>

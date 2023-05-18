@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
+.pull-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    background-color: black;
+    border-bottom: solid 3px darkblue;
+    z-index: 1;
+}
+
+.pull-header:hover > #div-header {
+    height: 55px;
+}
+
 #div-header {
     width: 100%;
     height: 10px;
@@ -8,8 +23,6 @@
     align-items: center;
     overflow: hidden;
     background-color: black;
-    border-bottom: solid 3px darkblue;
-    position: fixed;
     transition: .5s;
     z-index: 1;
 }
