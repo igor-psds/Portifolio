@@ -91,8 +91,26 @@ h2 {
     cursor: pointer;
 }
 
+.idiomas:hover > .idioma {
+    color: rgb(5, 176, 255);
+}
+
+.idiomas:hover > .flag-idioma {
+    border: solid rgb(5, 176, 255) 2px;
+    filter: brightness(1.2);
+}
+
 .idioma {
     font-family: 'Oswald', sans-serif;
     color: #fff;
     font-size: 25px;
+}
+
+.flag-idioma {
+    width: 38px;
+    height: auto;
+    border: solid #fff 2px;
+    border-radius: 50%;
+    background-size: cover;
+    filter: brightness(1);
 }

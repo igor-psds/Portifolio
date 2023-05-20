@@ -1,12 +1,15 @@
-import { React, useRef} from "react";
+import { React, useContext, useRef} from "react";
 import './styles/header.css';
 import Home from "../components/home/home";
 import Sobre from "../components/sobre/sobre";
 import Projetos from "../components/projetos/projetos";
 import Contato from "../components/contato/contato";
 import ArrowDown from "../midia/down-arrow.png";
+import { LanguageContext } from "../context/languageContext";
 
 function Page() {
+
+    const { language } = useContext(LanguageContext);
 
     const homeSection = useRef(null)
     const sobreSection = useRef(null)
@@ -27,10 +30,22 @@ function Page() {
                     <header>
                             <nav>
                                 <ul>
-                                    <li onClick={() => scrollDown(homeSection)}>Home</li>
-                                    <li onClick={() => scrollDown(sobreSection)}>Sobre</li>
-                                    <li onClick={() => scrollDown(projetosSection)}>Projetos</li>
-                                    <li onClick={() => scrollDown(contatoSection)}>Contato</li>
+                                    {language?
+                                        <>
+                                            <li onClick={() => scrollDown(homeSection)}>Home</li>
+                                            <li onClick={() => scrollDown(sobreSection)}>Sobre</li>
+                                            <li onClick={() => scrollDown(projetosSection)}>Projetos</li>
+                                            <li onClick={() => scrollDown(contatoSection)}>Contato</li>
+                                        </>
+                                    :
+                                        <>
+                                            <li onClick={() => scrollDown(homeSection)}>Home</li>
+                                            <li onClick={() => scrollDown(sobreSection)}>About</li>
+                                            <li onClick={() => scrollDown(projetosSection)}>Projects</li>
+                                            <li onClick={() => scrollDown(contatoSection)}>Contact</li>
+                                        </>
+
+                                    }
                                 </ul>
                             </nav>
                     </header>
