@@ -35,7 +35,9 @@ function Sobre(){
                         </div>
 
                         <p class="profile-sinopse">
-                            I've been having these weird thoughts lately. Like, is any of this for real or not?
+                            Olá, meu nome é Igor.<br/>
+                            Estou estudando para ser um Desenvolvedor Full Stack e em busca da minha primeira oportunidade de trabalho na área.
+                            Possuo o Ensino Médio completo, e estudei inglês no Canadá por 3 meses, alcançando o nivel de inglês avançado(fluente).
                         </p>
                     </div>
                 </>
@@ -66,7 +68,9 @@ function Sobre(){
                         </div>
 
                         <p class="profile-sinopse">
-                            I've been having these weird thoughts lately. Like, is any of this for real or not?
+                            Hi, my name is Igor.<br/>
+                            I'm studying to become a Full Stack Developer and looking for my first job opportunity in the area.
+                            I've completed the High School, and studied English in Canada for 3 months, reaching the level of advanced English(fluent).
                         </p>
                     </div>
                 </>

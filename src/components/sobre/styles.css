@@ -46,6 +46,7 @@
     font-family: 'Oswald', sans-serif;
     font-size: 21px;
     margin-top: 15px;
+    color: #000;
 }
 
 .profile-text {
@@ -110,5 +111,10 @@
     width: 430px;
     font-family: 'Oswald', sans-serif;
     color: #fff;
-    font-size: 17px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    padding: 20px;
+    border: #fff 3px solid;
+    border-radius: 8px;
 }

@@ -34,7 +34,7 @@ function Home(){
                     <>
                         <h1>Looking for a Full Stack Developer?</h1>
                         <div id="idioma-selection">
-                            <h2>Change Lanuage</h2>
+                            <h2>Change Language</h2>
                             <div className="idioma-box-1">
                                 <div className="idioma-box-2">
                                     <div className="idiomas" onClick={() => setLanguage(true)}>
