@@ -37,7 +37,7 @@ function Sobre(){
                         <p class="profile-sinopse">
                             Olá, meu nome é Igor.<br/>
                             Estou estudando para ser um Desenvolvedor Full Stack e em busca da minha primeira oportunidade de trabalho na área.
-                            Possuo o Ensino Médio completo, fluente em inglês, estudei no Canadá na ILAC por 3 meses, alcançando o nivel de inglês altamente avançado.
+                            Possuo o Ensino Médio completo. Fluente em inglês, estudei no Canadá na ILAC por 3 meses, alcançando o nivel de inglês altamente avançado.
                         </p>
                     </div>
                 </>
@@ -70,7 +70,7 @@ function Sobre(){
                         <p class="profile-sinopse">
                             Hi, my name is Igor.<br/>
                             I'm studying to become a Full Stack Developer and looking for my first job opportunity in the area.
-                            I've completed the High School, fluent in Englsih, studied in Canada at ILAC for 3 months, reaching the level of High-Advanced English.
+                            I've completed High School. Fluent in Englsih, studied in Canada at ILAC for 3 months, reaching the level of High-Advanced English.
                         </p>
                     </div>
                 </>
