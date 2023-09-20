@@ -20,11 +20,11 @@ function Sobre(){
                                         Meu Github
                                     </button>
                                 </a>
-                                {/* <a href="https://github.com/igor-psds" target="_blank">
+                                <a href="https://www.linkedin.com/in/igor-silva-29b648292/" target="_blank">
                                     <button class="profile-button">
-                                        Meu Github
+                                        Meu LinkedIn
                                     </button>
-                                </a> */}
+                                </a>
                                 <div class="divider"></div>
                                 <div class="icons-container">
                                     <div class="icon-item image-1"></div>
@@ -53,11 +53,11 @@ function Sobre(){
                                         My Github
                                     </button>
                                 </a>
-                                {/* <a href="https://github.com/igor-psds" target="_blank">
+                                <a href="https://www.linkedin.com/in/igor-silva-29b648292/" target="_blank">
                                     <button class="profile-button">
-                                        My Github
+                                        My LinkedIn
                                     </button>
-                                </a> */}
+                                </a>
                                 <div class="divider"></div>
                                 <div class="icons-container">
                                     <div class="icon-item image-1"></div>
