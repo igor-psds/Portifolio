@@ -36,8 +36,8 @@ function Sobre(){
 
                         <p class="profile-sinopse">
                             Olá, meu nome é Igor.<br/>
-                            Estou estudando para ser um Desenvolvedor Full Stack e em busca da minha primeira oportunidade de trabalho na área.
-                            Possuo o Ensino Médio completo. Fluente em inglês, estudei no Canadá na ILAC por 3 meses, alcançando o nivel de inglês altamente avançado.
+                            Sou um desenvolvedor com experiência prática na construção de aplicações web full stack, incluindo projetos como clones do YouTube e do WhatsApp.
+                            Eu me especializo em desenvolvimento front-end com React e, embora tenha experiência em desenvolvimento back-end com Node.js, ainda estou aprimorando minhas habilidades nessa área.
                         </p>
                     </div>
                 </>
@@ -69,8 +69,8 @@ function Sobre(){
 
                         <p class="profile-sinopse">
                             Hi, my name is Igor.<br/>
-                            I'm studying to become a Full Stack Developer and looking for my first job opportunity in the area.
-                            I've completed High School. Fluent in Englsih, studied in Canada at ILAC for 3 months, reaching the level of High-Advanced English.
+                            I'm a developer with hands-on experience building full-stack web applications, including projects like a YouTube and WhatsApp clone.
+                            I specialize in front-end development with React, and while I have experience in back-end development with Node.js, I'm still enhancing my skills in that area.
                         </p>
                     </div>
                 </>

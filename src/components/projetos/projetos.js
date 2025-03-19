@@ -17,9 +17,10 @@ function Projetos(){
                                 <div class="project-card">
                                     <div class="project-image project-1"></div>
                                     <p class="project-text-right">
-                                        Meu primeiro projeto do curso de programação, nele eu fiz um site do filme do Batman
-                                        com página Principal, Fotos, Comentários e Contato. Também deixei o site responsivo. A primeira 
-                                        versão foi feita usando apenas HTML e CSS, a segunda versão foi feita com React.
+                                        Para o meu primeiro projeto, desenvolvi um site dedicado ao filme do Batman,
+                                        com páginas de Início, Imagens, Comentários e Contato. Garantí que o site fosse totalmente 
+                                        responsivo para diferentes dispositivos. A versão inicial foi feita apenas com HTML e CSS, 
+                                        enquanto a segunda versão foi criada com React.
                                     </p>
                                 </div>
                             </div>
@@ -28,10 +29,9 @@ function Projetos(){
                                 <div class="project-card card-reverse">
                                     <div class="project-image image-reverse project-2"></div>
                                     <p class="project-text-left">
-                                        Meu segundo projeto do curso de programação, nele eu fiz uma réplica do YouTube, nele 
-                                        implementei um sistema de pesquisa de videos, cadastro de usuário e login. Também usei 
-                                        uma API para trazer videos do próprio YouTube para a pagina inicial e para os resultados de 
-                                        pesquisa.
+                                        Para o meu segundo projeto, desenvolvi uma réplica do YouTube com um sistema de busca de vídeos, 
+                                        cadastro de usuários e funcionalidade de login. Além disso, integrei uma API para buscar vídeos 
+                                        do YouTube, exibindo-os na página inicial e como resultados de busca.
                                     </p>
                                 </div>
                             </div>
@@ -40,8 +40,9 @@ function Projetos(){
                                 <div class="project-card">
                                     <div class="project-image project-3"></div>
                                     <p class="project-text-right">
-                                        Meu terceiro projeto do curso de programação, nele eu fiz uma réplica do WhatsApp, nele
-                                        usei o Socket.IO para implementar conversa privada e em grupo.
+                                        Para o meu terceiro projeto, desenvolvi uma réplica do WhatsApp, utilizando Socket.IO para 
+                                        implementar funcionalidades de chat privado e em grupo em tempo real. Também foquei em 
+                                        criar uma interface intuitiva e garantir uma experiência de troca de mensagens fluida.
                                     </p>
                                 </div>
                             </div>
@@ -58,9 +59,9 @@ function Projetos(){
                                 <div class="project-card">
                                     <div class="project-image project-1"></div>
                                     <p class="project-text-right">
-                                        My first project of the programing course, in it I did a website for the Batman movie 
-                                        with Home, Images, Comments and Contact pages. Made it responsive as well. The first 
-                                        version was made only with HTML and CSS, the second version was made with React.
+                                        For my first project,  I developed a website dedicated to the Batman movie, 
+                                        featuring Home, Images, Comments, and Contact pages. I ensured the site was fully responsive for different devices.
+                                        The initial version was built using only HTML and CSS, while the second version was created with React.
                                     </p>
                                 </div>
                             </div>
@@ -69,9 +70,9 @@ function Projetos(){
                                 <div class="project-card card-reverse">
                                     <div class="project-image image-reverse project-2"></div>
                                     <p class="project-text-left">
-                                        My second project of the programing course, in which I did a YouTube replica, in it I've 
-                                        implemented a system for searching videos, sign up and login. Also used an API to bring 
-                                        videos from YouTube to the Home page and as search results.
+                                        For my second project, I developed a YouTube replica that features a video search system, 
+                                        user registration, and login functionality. Additionally, I integrated an API to fetch videos 
+                                        from YouTube, displaying them on the Home page and as search results.
                                     </p>
                                 </div>
                             </div>
@@ -80,8 +81,9 @@ function Projetos(){
                                 <div class="project-card">
                                     <div class="project-image project-3"></div>
                                     <p class="project-text-right">
-                                        My third project of the programing course, in which I did a WhatsApp replica, in it I've
-                                        used Socket.IO to implement private and group chat.
+                                        For my third project, I developed a WhatsApp replica, using Socket.IO to implement 
+                                        real-time private and group chat functionality. I also focused on creating an intuitive user 
+                                        interface and ensuring a smooth messaging experience.
                                     </p>
                                 </div>
                             </div>
