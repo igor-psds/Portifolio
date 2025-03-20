@@ -15,12 +15,12 @@ function Sobre(){
                             <div class="profile-card">
                                 <div class="profile-image"></div>
                                 <span class="name-text">Igor Silva</span>
-                                <a href="https://github.com/igor-psds" target="_blank">
+                                <a href="https://github.com/igor-psds" target="_blank" rel="noreferrer">
                                     <button class="profile-button">
                                         Meu Github
                                     </button>
                                 </a>
-                                <a href="https://www.linkedin.com/in/igor-silva-29b648292/" target="_blank">
+                                <a href="https://www.linkedin.com/in/igor-silva-29b648292/" target="_blank" rel="noreferrer">
                                     <button class="profile-button">
                                         Meu LinkedIn
                                     </button>
@@ -48,12 +48,12 @@ function Sobre(){
                             <div class="profile-card">
                                 <div class="profile-image"></div>
                                 <span class="name-text">Igor Silva</span>
-                                <a href="https://github.com/igor-psds" target="_blank">
+                                <a href="https://github.com/igor-psds" target="_blank" rel="noreferrer">
                                     <button class="profile-button">
                                         My Github
                                     </button>
                                 </a>
-                                <a href="https://www.linkedin.com/in/igor-silva-29b648292/" target="_blank">
+                                <a href="https://www.linkedin.com/in/igor-silva-29b648292/" target="_blank" rel="noreferrer">
                                     <button class="profile-button">
                                         My LinkedIn
                                     </button>
